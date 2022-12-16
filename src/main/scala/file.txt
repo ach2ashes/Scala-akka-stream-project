@@ -1,0 +1,3 @@
+fold(0){( (count, entry) =>
+    count + 1)}.map { case (url, count) =>
+    (url, count)
