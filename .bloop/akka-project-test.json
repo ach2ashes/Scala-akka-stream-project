@@ -19,6 +19,7 @@
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream_2.13\\2.7.0\\akka-stream_2.13-2.7.0.jar",
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream-typed_2.13\\2.7.0\\akka-stream-typed_2.13-2.7.0.jar",
+            "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lightbend\\akka\\akka-stream-alpakka-file_2.13\\5.0.0\\akka-stream-alpakka-file_2.13-5.0.0.jar",
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.13\\2.7.0\\akka-actor_2.13-2.7.0.jar",
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-protobuf-v3_2.13\\2.7.0\\akka-protobuf-v3_2.13-2.7.0.jar",
             "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.4\\reactive-streams-1.0.4.jar",
@@ -170,6 +171,23 @@
                             "name": "akka-stream-typed_2.13",
                             "classifier": "sources",
                             "path": "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-stream-typed_2.13\\2.7.0\\akka-stream-typed_2.13-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lightbend.akka",
+                    "name": "akka-stream-alpakka-file_2.13",
+                    "version": "5.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream-alpakka-file_2.13",
+                            "path": "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lightbend\\akka\\akka-stream-alpakka-file_2.13\\5.0.0\\akka-stream-alpakka-file_2.13-5.0.0.jar"
+                        },
+                        {
+                            "name": "akka-stream-alpakka-file_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\PC2\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lightbend\\akka\\akka-stream-alpakka-file_2.13\\5.0.0\\akka-stream-alpakka-file_2.13-5.0.0-sources.jar"
                         }
                     ]
                 },

@@ -1,1 +1,11 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\PC2\Documents\akka-project\target\scala-2.13\akka-project_2.13-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\PC2\Documents\akka-project\target\scala-2.13\akka-project_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogEntry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\PC2\Documents\akka-project\target\scala-2.13\classes\LogEntry$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogEntry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\PC2\Documents\akka-project\target\scala-2.13\classes\LogEntry.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogFileAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\PC2\Documents\akka-project\target\scala-2.13\classes\LogFileAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogFileAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\PC2\Documents\akka-project\target\scala-2.13\classes\LogFileAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
