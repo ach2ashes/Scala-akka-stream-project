@@ -33,29 +33,33 @@ object LogFileAnalyzer {
       (website,1)
     }.groupBy(Int.MaxValue,_._1)
     .scan(("",0)) { case ((_, count), (website, _)) => (website, count + 1) }
-    .map { case (website,count) => s"($website, $count)" }
+    .filter{case (website, count) => count > 0}
+    .map { case (website,count) => s"($website, $count)\n" }
+    .map(s=>ByteString(s))
     .mergeSubstreams
     
-    
+    val httpFlow = Flow[ByteString].map { line =>
+      val fields = line.utf8String.split(" ")
+      val http = fields(1)
+      (http,1)
+    }.groupBy(Int.MaxValue,_._1)
+    .scan(("",0)) { case ((_, count), (http, _)) => (http, count + 1) }
+    .filter{case (http, count) => count > 0}
+    .map { case (http,count) => s"( HTTP $http, $count)\n" }
+    .map(s=>ByteString(s))
+    .mergeSubstreams
   
-val sink = FileIO.toPath(Paths.get("./f.txt")) 
-    // Group the website names and count the number of visits for each website
-    //case (website, visits) => (website, visits +1)
-val f=    source.via(websiteFlow).runWith(Sink.foreach(println))
+val sink_website = FileIO.toPath(Paths.get("./websites.csv")) 
+val sink_http = FileIO.toPath(Paths.get("./http.csv")) 
+
+val f = source.via(websiteFlow).runWith(sink_website)
+val ff = source.via(httpFlow).runWith(sink_http)
+
+while (true){
 Await.result(f,60.second)
+Await.result(ff,60.second)
+}
 }
  
 }
- /*
-    // Write the results to a file
-    val outputFile = Paths.get("./file.txt")
-    val sink = FileIO.toPath(outputFile)
-
-    // Connect the source, flow, and sink to create a stream
-    val stream = source.via(websiteFlow).via(countFlow).to(sink)
-
-    // Run the stream
-    stream.run()
-  }
-}
-*/
+ 

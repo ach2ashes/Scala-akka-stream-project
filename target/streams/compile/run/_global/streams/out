@@ -2,10 +2,10 @@
 [0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Await$$$Lambda$4355/646986984.apply(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Await$$$Lambda$5393/1766335563.apply(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Await$.result(package.scala:124)[0m
-[0m[[0m[31merror[0m] [0m[0m	at LogFileAnalyzer$.main(Main.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at LogFileAnalyzer$.main(Main.scala:58)[0m
 [0m[[0m[31merror[0m] [0m[0m	at LogFileAnalyzer.main(Main.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[0m
@@ -14,13 +14,13 @@
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$$Lambda$4253/852289472.apply$mcV$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$$Lambda$5290/487452669.apply$mcV$sp(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1980)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$$$Lambda$4246/646062536.apply$mcV$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$$$Lambda$5284/239687577.apply$mcV$sp(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1919)[0m
-[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$$$Lambda$4247/603378065.apply$mcV$sp(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$$$Lambda$5285/1636262445.apply$mcV$sp(Unknown Source)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
