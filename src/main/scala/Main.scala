@@ -26,7 +26,7 @@ object LogFileAnalyzer {
     val source =   FileTailSource(logFile,maxChunkSize = 4096,startingPosition=0L,pollingInterval = 5000.millis).via(Framing.delimiter(ByteString("\n"), maximumFrameLength = 4096, allowTruncation = true))
 
 
-    // Parse each line of the log file to extract the website name
+    
     val websiteFlow = Flow[ByteString].map { line =>
       val fields = line.utf8String.split(" ")
       val website = fields(2)
